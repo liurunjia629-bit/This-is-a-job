@@ -8,7 +8,7 @@ THIS IS A JOB?!
 
 ## Live Demo
 
-[在线游玩](https://liurunjia629-bit.github.io/This-is-a-job-/)
+[在线游玩](https://liurunjia629-bit.github.io/This-is-a-job/)
 
 ## V1.1
 
