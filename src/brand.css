@@ -1,0 +1,21 @@
+/* Wordmark metrics match the first game's src/brand.css. */
+header{display:flex}
+header .brand{display:inline-flex;align-items:center;gap:11px;flex:0 0 auto;min-width:0;text-align:left;text-decoration:none;color:#242424;font-family:'Noto Sans SC','Microsoft YaHei',sans-serif}
+.brand-logo-icon{display:block;flex:none;width:40px;height:40px;aspect-ratio:1/1;object-fit:contain}
+.brand-logo-wordmark{display:block;white-space:nowrap;line-height:1.35}
+.brand-logo-wordmark strong{display:block;font-size:15px;font-weight:800;letter-spacing:.8px}
+header .brand-logo-wordmark small{display:block;font-family:inherit;font-size:8px;font-weight:500;letter-spacing:1.5px;margin-top:5px;line-height:1.4}
+header #audio{flex:none;white-space:nowrap}
+header .edition{white-space:nowrap}
+/* Preserve the entire original desktop lockup; only scale it uniformly. */
+@media(max-width:600px){
+ header{padding:18px 16px;gap:14px;flex-wrap:wrap}
+ header .brand{gap:11px;transform:scale(.85);margin-right:-29px}
+ header #audio{margin-left:auto}
+ header .edition{order:3;flex:0 0 100%;margin-left:0;text-align:right;font-size:10px}
+}
+@media(max-width:350px){
+ header{padding-left:12px;padding-right:12px;gap:10px}
+ header .brand{transform:scale(.8);margin-right:-39px}
+}
+
